@@ -1,0 +1,179 @@
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light{
+border-bottom-left-radius:90px;
+background-color: white;
+border-color: rgba(26, 25, 31, .1);
+}
+
+
+
+/***HEADER/VEIL***/
+.ribbon-veil-left-fill{
+	margin-right: 50%;
+	top: 0;
+	left:0;
+	height: 65px;
+	width: 10%;
+	background: rgb(167, 168, 172); 
+	z-index: -1;
+	position: absolute; 
+}
+.ribbon-veil{
+	margin-top: 60px;
+	border-radius: 0 90px 0 90px;
+	width: 100%;
+	position: relative;
+}
+.ribbon-veil-right-fill{
+	right: 0;
+	margin-left: 50%;
+	height: 100px;
+	width: 10%;
+	background: rgb(167, 168, 172);
+		z-index: -1;
+	position: absolute; 
+}
+	
+
+
+/****Contact-section***/
+#contact-section-holder{
+width: 100%;
+}
+
+.contact-section{
+	border-top-right-radius: 90px;
+	background-image:url(../img/drawing-pad-1209779_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	box-shadow: none;
+	padding: 60px 0;
+}
+
+
+#contact-links div.holder{
+padding: 5px 0;
+	border-radius: 5px;
+	background-color: rgba(26, 25, 31, .7);
+	border: 1px solid #83711b;
+}
+
+#contact-links a{
+	color:rgba(255, 246, 102, .7);
+}
+
+
+
+.form-inline{
+	border-bottom: 1px solid black;
+	margin: 0 30px 30px 0;
+}
+
+
+
+.gold-butn{
+	font-family: "Niconne";
+	border:2px ridge rgba(26, 25, 31, .7);
+}
+
+
+#brand-style-page-devider-holder{
+	padding: 5px 0 20px 0;
+	top: 0;
+	background: #1a191f;
+}
+
+
+/****RESPONSIVE****/
+@media (max-width: 1500px){
+	div#form{
+		padding-right: 15%;
+		padding-left: 10%;
+	}
+}
+
+@media (max-width: 1270px){
+	#form button{
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 1200px){
+	#form div.form-inline:nth-of-type(4){
+		margin-bottom: 0;
+}
+}
+
+
+@media (max-width: 1145px){
+	div#form {
+		padding-top: 0;
+}
+}
+
+@media (max-width: 992px){
+	#contact-links div#space-holder{
+		display: none;
+	}
+}
+
+
+@media (max-width: 992px){
+	#form-button{
+		margin-top: 20px;
+	}
+}
+/*****TABLET****/
+
+@media (max-width: 768px){
+	#contact-section-holder{
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px){
+	div#contact-section-holder, 
+	div#form, 
+	#contact-links div.holder, 
+	#contact-links div.contact-link, 
+	div#subheader, 
+	#form textarea{
+		padding: 0;
+	}
+}
+
+
+@media (max-width: 768px){
+	div#subheader,
+	 p,
+	  #contact-links div.contact-link,
+	   #form label,
+	    div.form-inline{
+		margin: 0;
+	}
+}
+
+@media (max-width: 670px){
+#contact-links-section{
+	padding: 0 40px;
+}
+}
+
+
+
+@media (max-width: 340px){
+#submit-btn-container div.space-holder{
+	display: none;
+}
+}
+
+@media (max-width: 340px){
+	#form-button{
+	width: 100%;
+	/*margin-top: 10px;*/
+	padding:0;
+	}
+}
+
+
+

@@ -1,0 +1,674 @@
+/*HEADING*/
+#banner-holder{
+  background: url(../img/web-design-cropped.jpg) no-repeat;
+	background-position:center;
+	background-size: cover;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 2;
+	box-shadow: 10px 10px 10px -10px rgba(26, 25, 31, .2), -10px 10px 10px -10px #647ca0, -10px -10px 10px -10px rgba(26, 25, 31, .2), 10px -10px 10px -10px #647ca0;
+	}
+
+
+.veil, 
+#brand-style-page-devider-holder{
+	top: 0;
+}
+
+
+/***LEFT SIDE BUTTONS***/
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 100;
+    top: -120px;
+    left: -3px;
+   
+}
+.sidenav a{
+	margin-top: 300px;
+    padding: 3px 0 3px 3px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(26, 25, 31, .7);
+	border: 1px solid #83711b;
+    display: block;
+    color:rgba(255, 246, 102, .7);
+    text-shadow:
+	 -.1px -.1px 0 #fff666,
+      .1px -.1px 0 #fff666,
+     -.1px .1px 0 #fff666,
+      .1px .1px 0 #fff666; 
+}
+.sidenav a:hover{
+box-shadow:
+	 10px 10px 10px -5px rgb(167, 168, 172), 
+	-10px 10px 10px -5px rgb(167, 168, 172), 
+	-10px -10px 10px -5px rgb(167, 168, 172),
+	 10px -10px 10px -5px rgb(167, 168, 172);
+	 border: none;
+	 text-decoration: none;
+	 background: linear-gradient
+	 (130deg, 
+	 	rgb(167, 168, 172), 
+	 	white, 
+	 	rgb(167, 168, 172));
+     color: #647ca0;
+}
+
+
+
+
+/*SERVICES SECTION*/
+.fixed-message{
+	position: fixed;
+	width: 100%;
+	top: 170px;
+	z-index: 1;
+	left: 0;
+}
+
+
+.fixed-message a{
+	border:none;
+}
+
+
+
+
+
+
+.services-section-item-holder{
+	box-shadow:
+	 0 10px 10px -10px inset,
+	 0 -10px 10px -10px inset,
+	  10px 0px 10px -10px inset,
+	   -10px 0px 10px -10px inset;
+    background-color: #647ca0;
+    border-radius: 10px;
+    padding-top: 100px;
+    }
+
+#services-section-items{
+position: relative;
+   width: 100%;
+    z-index: -1;
+    top: 160px;
+    margin: auto;
+ }   
+
+
+
+#photoshop p{
+	margin-top: 20px;
+}	
+
+#html-css p{
+	margin-top: 5px;
+}
+
+
+
+/*PROCESS*/
+.scrollable-section, 
+footer{
+	position: relative;
+   top:80px;
+    z-index: 2;
+}
+
+.triangle-devider{
+	box-shadow: 0 10px 10px -10px rgb(167, 168, 172);
+}
+
+#process-section-header{
+	background-color: white;
+}
+
+
+
+#get-started-button:hover{
+    border: none;
+	 color:rgba(255, 246, 102, .7);
+    text-shadow:
+	 -.5px .5px 3px #647ca0,
+      .5px -.5px 3px #647ca0,
+     -.5px .5px 3px #647ca0,
+      .5px .5px 3px #647ca0; 
+	}
+	
+
+.gold-bar{
+	height: 20px;
+	background: linear-gradient(#83711b,  #fff666, #83711b);
+	}
+
+
+
+/***CAROUSEL***/
+.carousel-item{
+	height: 500px;
+	z-index: -10;
+}
+
+ .carousel-control-next-icon, 
+.carousel-control-prev-icon{
+	position: relative;
+	top: -30px;
+	height: 50px;
+	width: 50px;
+	z-index: 30;
+	
+}
+.carousel-control-next, .carousel-control-prev{
+	width: 5%;
+}
+#discover-section-holder{
+background: url(../img/light-bulb-long.jpg) no-repeat;
+background-size: cover;
+background-position: center;
+}
+#design-section-holder{
+	background: url(../img/website-1624028_1280.png) no-repeat;
+    /*background: url(../img/templates.jpg) no-repeat;*/
+   background-size: cover;
+background-position:center;
+}
+.design-section-veil{
+	background-color:rgba(26, 25, 31, .3);
+	height: 500px;
+}
+#develope-section-holder{
+    background:url(../img/responsive-edited-ninety.jpg) no-repeat;
+    background-size: cover;
+background-position: center;
+}
+#launch-section-holder{
+     background: url(../img/girl-on-computer-flipped-again.jpg) no-repeat;
+     background-size: cover;
+background-position: 0 -20px;
+ }
+
+
+.carousel-item-content-holder{
+ 	width: 500px;
+ 	margin-left: 140px;
+}
+.carousel-item-content-holder h2{
+	text-decoration: underline;
+	font-family: "serif";
+}
+
+.carousel-item-content-holder{
+	font-family: "serif";
+}
+.carousel-item-content-holder p{
+text-shadow: 
+   -1px -1px 0 #44556f,
+    1px -1px 0 #44556f,
+    -1px 1px 0 #44556f,
+    1px 1px 0 #44556f,
+     -5px -5px 10px rgba(68, 85, 111, .5),
+    5px -5px 10px rgba(68, 85, 111, .5),
+    5px 5px 10px rgba(68, 85, 111, .5),
+   -5px 5px 10px rgba(68, 85, 111, .5);
+}
+	
+
+
+
+
+
+
+
+/**RESPONSIVE***/
+
+
+@media (max-width: 1255px){
+#design-section-holder{
+background-position:0 -60px;
+}
+}
+@media (max-width: 1255px){
+#develope-section-holder{
+background-position:-200px 0;
+}
+}
+@media (max-width: 1255px){
+	.sidenav{
+		top: -90px;
+	}
+}
+
+
+@media (max-width: 1100px){
+.services-section-item-holder{
+	top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+}
+@media (max-width: 1100px){
+.fixed-message{
+	top: 150px;
+}
+}
+@media (max-width: 1100px){
+	.fixed-message p{
+		color: black;
+	}
+}
+@media (max-width: 1100px){
+.sidenav{
+	top:-140px;
+}
+}
+@media (max-width: 1100px){
+	.scrollable-section, 
+	footer{
+		top: 100px;
+}
+}
+@media (max-width: 1110px){
+.carousel-item{
+	height: 470px;
+}
+}
+@media (max-width: 1100px){
+#develope-section-holder{
+background-position:-200px 0;
+}
+}
+@media (max-width: 1100px){
+#launch-section-holder{
+background-position: center;
+}
+}
+
+
+@media (max-width: 1040px){
+#develope-section-holder{
+background-position:-350px 0;
+}
+}
+
+
+
+@media (max-width: 991px){
+#services-section-items{
+	top: 130px;
+}
+}
+@media (max-width: 991px){
+	#html-css{
+		padding-top: 90px;
+	padding-bottom: 20px;
+	}
+}
+@media (max-width: 991px){
+	#photoshop{
+		padding-top: 10px;
+	padding-bottom: 20px;
+	height: 250px;
+	}
+}
+@media (max-width: 991px){
+#responsive{
+	height: 300px;
+	padding-top:5px;
+}
+}
+@media (max-width: 991px){
+.services-section-item-holder p{
+	line-height: 1em;
+	margin: 0;
+	padding-top: 0;
+    text-shadow: 
+   -1px -1px 0 #44556f,
+    1px -1px 0 #44556f,
+    -1px 1px 0 #44556f,
+    1px 1px 0 #44556f,
+     -5px -5px 10px rgba(68, 85, 111, .5),
+    5px -5px 10px rgba(68, 85, 111, .5),
+    5px 5px 10px rgba(68, 85, 111, .5),
+   -5px 5px 10px rgba(68, 85, 111, .5);
+    }
+
+}
+@media (max-width: 991px){
+ .scrollable-section,
+ footer{
+ 	top: 50px;
+
+ }
+}
+@media (max-width: 991px){
+.carousel-item{
+	height: 350px;
+}
+}
+@media (max-width: 991px){
+#develope-section-holder{
+background-position: center;
+}
+}
+@media (max-width: 991px){
+	.carousel-item-content-holder{
+		margin:0 3%;
+	}
+}
+@media (max-width: 991px){
+.carousel-item-content-holder h2,
+.carousel-item-content-holder p{
+	font-size: 25px;
+}
+}
+@media (max-width: 991px){
+.carousel-item-content-holder h3{
+	font-size: 40px;
+	padding: 0;
+	margin: 0;
+}
+}
+@media (max-width: 900px){
+#process-section-header a{ 
+display: block;
+}
+}
+
+
+@media (max-width: 800px){
+#develope-section-holder{
+background-position:-250px 0;
+}
+}
+
+
+@media (max-width: 770px){
+ .scrollable-section,
+ footer{
+ 	top: 70px;
+
+ }
+}
+
+
+@media (max-width: 700px){
+	.carousel-item-content-holder p{
+		padding: 0;
+		margin: 0;
+		line-height: 1.2em;
+	}
+}
+@media (max-width: 700px){
+.carousel-item{
+	height: 300px;
+}
+}
+@media (max-width: 700px){
+	#develope-section-holder{
+		background-position: center;
+	}
+}
+@media (max-width: 700px){
+ul.carousel-indicators{
+	margin-bottom: 0;
+} 
+}
+
+
+
+
+@media (max-width: 620px){
+#photoshop{
+	height: 300px;
+}
+}
+@media (max-width: 620px){
+	#develope-section-holder{
+		background-position: -250px 0;
+	}
+}
+
+
+
+@media (max-width: 575px){
+	#launch-section-holder h3{
+		margin-bottom: 70px;
+	}
+}
+
+
+
+@media (max-width: 550px){
+	#services-section-items{
+		top: 110px;
+	}
+}
+@media (max-width: 550px){
+	.fixed-message{
+		top: 130px;
+	}
+}
+@media (max-width: 550px){
+	.sidenav{
+		top: 150px;
+		left: -6px;
+	}
+}
+@media (max-width: 550px){
+	.sidenav a{
+		margin-top: 10px;
+	}
+}
+@media (max-width: 550px){
+	#html-css {
+		padding-top: 80px;
+	}
+}
+@media (max-width: 550px){
+	#photoshop {
+		height: 240px;
+	}
+}
+@media (max-width: 550px){
+	#responsive{
+		height: 280px;
+	}
+}
+@media (max-width: 550px){
+	#photoshop p,
+	#responsive p{
+		margin:0;
+	}
+}
+@media (max-width: 550px){
+	.scrollable-section, 
+	footer{
+		top: 50px;
+	}
+}
+@media (max-width: 550px){
+	#develope-section-holder{
+		background-position: -300px 0;
+	}
+}
+@media (max-width: 550px){
+	#launch-section-holder h3{
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 550px){
+	.carousel-item-content-holder p,
+	.carousel-item-content-holder h2{
+		margin:0;
+		line-height: 1.5em;
+	}
+}
+@media (max-width: 550px){
+	.carousel-item-content-holder h3{
+		font-size: 30px;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+
+
+
+@media (max-width: 530px){
+.carousel-item-content-holder{
+	width:90%;
+}
+}
+
+
+@media (max-width: 500px){
+	#services-section-items{
+		top: 90px;
+	}
+}
+@media (max-width: 500px){
+	.fixed-message{
+		top: 110px;
+	}
+}
+@media (max-width: 500px){
+	.scrollable-section,
+	footer{
+		top: 30px;
+	}
+}
+@media (max-width: 500px){
+.removable{
+	display: none;
+}
+}
+
+
+@media (max-width: 475px){
+	#photoshop{
+		height: 280px;
+	}
+}
+@media (max-width: 475px){
+	#discover-section-holder h3{
+		margin-bottom: 30px;
+		} 
+	}
+
+@media (max-width: 475px){
+	#design-section-holder{
+		background-position: center;
+		} 
+	}
+@media (max-width: 475px){
+	#develope-section-holder{
+		background-position: -430px 0;
+		} 
+	}
+
+
+
+@media (max-width: 420px){
+	.fixed-message{
+	top: 87px;
+	margin-left: 27%;
+	}
+}
+@media (max-width: 420px){
+	#photoshop{
+		height: 250px;
+	}
+}
+@media (max-width: 420px){
+	#responsive{
+		height: 320px;
+	}
+}
+@media (max-width: 420px){
+	.scrollable-section, footer{
+		top: 30px;
+	}
+}
+
+
+@media (max-width: 400px){
+	#services-section-items{
+		top: 100px;
+	}
+}
+@media (max-width: 400px){
+	#discover-section-holder{
+		background-position: -200px 0;
+		} 
+	}
+@media (max-width: 400px){
+	#launch-section-holder{
+		background-position: -200px 0;
+		} 
+	}
+
+
+
+@media (max-width: 400px){
+	.carousel-item-content-holder p{
+		line-height: 1.2em;
+}
+}
+
+
+@media (max-width: 390px){
+	#photoshop{
+		height: 280px;
+	}
+}
+@media (max-width: 390px){
+	.sidenav a{
+		margin-top:0;
+		padding: 0;
+	}
+}
+
+
+@media (max-width: 360px){
+	#responsive{
+		height: 340px;
+	}
+}
+
+
+
+
+@media (max-width: 335px){
+#banner-holder, 
+.veil{
+	height: 130px;
+}
+}
+@media (max-width: 335px){
+#banner-holder h1.display-3{
+	position: relative;
+	top: -23px;
+}
+}
+@media (max-width: 335px){
+button.navbar-toggler{
+	margin-top: 10px;
+}
+}
+@media (max-width: 335px){
+	#brand-style-page-devider-holder{
+		top: 20px;
+	}
+}
+
+
+
+
+/*
+ @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}*/
