@@ -101,21 +101,31 @@
   <form>
   <div class="form-inline">
   <label for="name">Name*</label>
-  <input class="form-control-plaintext no-padding" type="text" id="name" name="name">
+  <input class="form-control-plaintext no-padding" type="text" id="name" name="name" required>
   </div>
   <div class="form-inline">
   <label for="email">Email*</label>
-  <input class="form-control-plaintext no-padding" type="email" id="email" name="email">
+  <input class="form-control-plaintext no-padding" type="email" id="email" name="email" required>
   </div>
   <div class="form-inline">
   <label for="phone">Phone</label>
-  <input class="form-control-plaintext no-padding" type="tel" id="phone" name="phone">
+  <input class="form-control-plaintext no-padding" type="tel" id="phone" name="phone" required>
   </div>
   <div class="form-inline">
   <label for="message">Message (optional)</label>
-  <textarea class="form-control-plaintext" id=message name="message"></textarea>
+  <textarea class="form-control-plaintext" id="message" name="message"></textarea>
   </div>
-
+  <div id="preferred-contact-method-holder">
+    <fieldset>
+      <legend>How should I contact you?</legend>
+      <label>Phone
+   <input type="radio" name="preferred-contact-method" value="phone">
+   </label>
+   <label>Email
+   <input type="radio" name="preferred-contact-method" value="email">
+   </label>
+   </fieldset>
+    </div>
   <div class="container" id="submit-btn-container">
   <div class="row">
   <div class="col-lg-9 col-3 space-holder"></div>
@@ -168,6 +178,8 @@
  
 
 </footer>
+<script src="../js/contact.js"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <!-- Popper JS -->
