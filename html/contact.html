@@ -81,7 +81,7 @@
      
     <div class="col-12 col-md-6 col-lg-4 text-center contact-link" >
     <div class="holder"><a href="#">
-    <i class="far fa-envelope"></i><br>andreadesideriopro@gmail.com</a>
+    <i class="far fa-envelope"></i><br>andreadesiderio@outlook.com</a>
     </div>
     </div>
 
@@ -98,7 +98,7 @@
 
 
   <div id="form" class="container padded-top-large">   
-  <form>
+  <form action="form-validator.php" method="POST">
   <div class="form-inline">
   <label for="name">Name*</label>
   <input class="form-control-plaintext no-padding" type="text" id="name" name="name">
@@ -115,11 +115,11 @@
   <label for="message">Message (optional)</label>
   <textarea class="form-control-plaintext" id="message" name="message"></textarea>
   </div>
-  <div id="preferred-contact-method-holder">
+  <div id="preferredContactMethod-holder">
     <fieldset>
       <legend>How should I contact you?</legend>
       <label>Phone
-   <input type="radio" name="preferred-contact-method" value="phone">
+   <input type="radio" name="preferredContactMethod" value="phone">
    </label>
    <label>Email
    <input type="radio" name="preferred-contact-method" value="email">
